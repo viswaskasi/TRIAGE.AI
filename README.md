@@ -20,6 +20,25 @@
 
 ---
 
+## 💬 Example Chat Transcripts
+
+Here is how the AI handles different types of support requests:
+
+### Technical Support (HackerRank)
+> **User**: "I'm having trouble logging into my HackerRank account. I've tried resetting my password but haven't received the email."
+> 
+> **AI Agent**: (Domain: HackerRank | Type: Login | Risk: MEDIUM | Action: RESPOND)
+> "I'm sorry to hear you're having trouble accessing your account. Please ensure that you have checked your spam or junk folder for the reset email. If it's not there, it may take up to 10 minutes to arrive. Would you like me to provide the link to our manual account recovery page?"
+
+### High-Risk Fraud (Visa)
+> **User**: "I just noticed three transactions on my Visa card that I didn't make. One is for $400 at an electronics store I've never visited!"
+> 
+> **AI Agent**: (Domain: Visa | Type: Fraud/Security | Risk: HIGH | Action: ESCALATE)
+> "I have flagged this as a high-priority security issue and am escalating it immediately to our fraud prevention team. Your Ticket ID is **TKT-D9984D6D**. Please call the number on the back of your card or use the Visa mobile app to freeze your card immediately."
+
+---
+
+
 ## 🛠️ Tech Stack
 
 ### Backend
