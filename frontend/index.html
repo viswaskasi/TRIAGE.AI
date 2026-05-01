@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Support Triage</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="glass-header">
+            <div class="header-logo">
+                <i class="fa-solid fa-robot"></i>
+                <h1>Triage AI</h1>
+            </div>
+            <div class="status-indicator">
+                <span class="pulse"></span> Online
+            </div>
+        </header>
+        
+        <main class="chat-container" id="chat-container">
+            <div class="message ai-message welcome-message">
+                <div class="avatar"><i class="fa-solid fa-brain"></i></div>
+                <div class="bubble">
+                    Hello! I am the Support Triage AI. Please describe your issue, and I will strictly route or resolve it based on our policies.
+                </div>
+            </div>
+        </main>
+
+        <footer class="input-area glass-footer">
+            <form id="chat-form">
+                <input type="text" id="user-input" placeholder="Describe your issue..." autocomplete="off" required>
+                <button type="button" id="mic-btn"><i class="fa-solid fa-microphone"></i></button>
+                <button type="submit" id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </footer>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
