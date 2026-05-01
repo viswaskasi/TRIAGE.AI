@@ -1,9 +1,12 @@
-pandas
+fastapi
+uvicorn
 python-dotenv
 langchain-google-genai
 langchain-core
-pydantic
-chromadb
-langchain
 langchain-chroma
 langchain-text-splitters
+langchain
+langgraph
+pydantic
+chromadb
+pandas
