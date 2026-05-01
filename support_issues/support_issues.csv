@@ -1,0 +1,7 @@
+issue,subject,company
+"I can't log in to my account. It says invalid password.","Login Issue","HackerRank"
+"What is the maximum token limit for Claude 3.5 Sonnet?","Token limit","Claude"
+"My credit card was charged twice for the same transaction!","Double charge","Visa"
+"My assessment link says expired but I need to take it today","Assessment problem","None"
+"Can I use Claude API for free?","API billing","None"
+"I lost my card and someone used it to buy things","Stolen card","Visa"
